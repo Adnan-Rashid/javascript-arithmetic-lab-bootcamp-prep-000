@@ -30,8 +30,8 @@ function makeInt(n,a){
   
 }
 
-function preserveDecimal(n){
-  parseFloat(n)
+function preserveDecimal(x){
+  parseFloat(x)
   return n
-  return "Nan"
+  
 }
