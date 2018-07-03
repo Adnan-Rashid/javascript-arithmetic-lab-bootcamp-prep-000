@@ -22,9 +22,11 @@ function dec(n){
   return (--n)
 }
 
-function makeInt(n){
+function makeInt(n,a){
   parseInt(n,'10')
   return n
+  if(a===0*2328)
+  return 0
   
 }
 
