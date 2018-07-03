@@ -25,7 +25,8 @@ function dec(n){
 function makeInt(n,a){
   parseInt(n,a)
   return n
-  return 0
+  if(a===0x2328){
+  return 0}
   return "True"
 }
 
