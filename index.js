@@ -33,4 +33,5 @@ function makeInt(n,a){
 function preserveDecimal(n){
   parseFloat(n)
   return n
+  return "Nan"
 }
