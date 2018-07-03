@@ -23,11 +23,9 @@ function dec(n){
 }
 
 function makeInt(n,a){
-  parseInt(n,a)
+  parseInt(n,'10')
   return n
-  if(a===0x2328){
-  return 0}
-  return "True"
+  
 }
 
 function preserveDecimal(n){
